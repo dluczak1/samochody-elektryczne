@@ -1,0 +1,77 @@
+@charset "utf-8";
+.car{
+	margin: 0 auto;
+	text-align: center;
+}
+.car img{
+	width: 50%;
+	height: auto;
+	margin-bottom: 40px;
+}
+.header{
+	text-align: center;
+	font-size: 35px;
+	margin-top: 30px;
+	font-family: zeitung-mono, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+
+.info{
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+	font-family: zeitung-mono, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+}
+.info ul{
+	list-style: none;
+	margin: 0 auto;
+	text-align: center;
+}
+.info ul li{
+	display: inline;
+	margin-right: 60px;
+}
+.info li{
+	font-size: 30px;
+	
+}
+.info ul li a{
+	text-decoration: none;
+	cursor: inherit;
+	color: #1cb2f5;
+}
+button {
+	margin: 10px;
+	transition: all 0.3s ease;
+	background-color: white;
+	border: 2px, #1cb2f5, solid;
+  	color: black;
+  	padding: 5px 3px;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.back{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.back:hover{
+	background-color: #1cb2f5;
+	border-color: #1cb2f5;
+	color: white;
+}
+.back a{
+	text-decoration: none;
+	transition: 0.3s;
+	color: black;
+}
+.back a:hover{
+	color: white;
+}

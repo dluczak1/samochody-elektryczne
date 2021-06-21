@@ -1,0 +1,136 @@
+@charset "utf-8";
+.menu{
+	margin-right: 70px;
+	margin-top: 24px; 
+}
+.menu ul{
+	list-style: none;
+	display: flex;
+}
+.menu ul li{
+	margin-right: 40px;
+  transition:0.4s;
+  padding-bottom: 6px;
+  margin-top: 24px;
+	}
+.menu ul li:first-child{
+	margin-left: auto;
+}
+.menu ul li::after{
+	content: "";
+	display: block;
+	height: 2px;
+	width: 0;
+	margin: auto;
+	background-color: #1cb2f5;
+	transition: all 0.4s linear;
+	margin-top: 6px;
+}
+.menu ul li:hover::after{
+	width: 100%;
+}
+/*.menu ul li:hover{
+	--d: 100%;
+}*/
+li.active::after{
+	width: 100% !important;
+}
+.menu a{
+	font-size: 24px;
+	color: dimgrey;
+	text-decoration: none;
+	letter-spacing: 2px;
+	text-decoration-color: #1cb2f5 !important;
+}
+.main{
+	border-bottom: 2px solid #1cb2f5;
+	/* padding-bottom: 2px; */
+}
+.header{
+	width: 55%;
+	margin: 20px auto;
+	display: flex;
+	font-family: zeitung-mono, sans-serif;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 26px;
+}
+.text{
+	width: 55%;
+	margin: 20px auto;
+	display: flex;
+	font-family: zeitung, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 24px;
+}
+.linki{
+	width: 55%;
+	margin: 20px auto;
+}
+.linki a{
+	text-decoration: none;
+	font-family: zeitung, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: 16px;
+	color: #1cb2f5;
+	transition: 0.4s;
+}
+.linki a:hover{
+	color: #1861D1;
+}
+.footer{
+	text-align: center;
+	color: dimgray;
+}
+.nav ul{
+	list-style: none;
+}
+.nav ul a{
+	text-decoration: none;
+	color: white;
+	transition: 0.4s;
+}
+.nav ul a:hover{
+	color: #1cb2f5;
+}
+.nav{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 230px;
+	height: auto;
+	padding: 5px;
+	background-color: black;
+	color: white;
+	
+}
+html{
+	scroll-behavior: smooth;
+}
+.toTop{
+	position: fixed;
+	right: 10px;
+	bottom: 20px;
+	margin: 10px;
+	transition: all 0.3s ease;
+	background-color: white;
+	border: 2px, black, solid;
+  	color: black;
+  	padding: 5px 3px;
+  	text-align: center;
+ 	text-decoration: none;
+  	display: inline-block;
+  	font-size: 16px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+.toTop:hover{
+	color: white;
+	background-color: black;
+}
+
+.hide{
+	display: none;
+}
