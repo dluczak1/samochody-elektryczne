@@ -131,6 +131,7 @@ li.active::after{
 	width: 55%;
 	margin: 0 auto;
 	padding: 30px;
+	text-align: justify;
 }
 .history a{
 	text-decoration: none;

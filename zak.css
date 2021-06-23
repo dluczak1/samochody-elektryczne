@@ -134,3 +134,6 @@ html{
 .hide{
 	display: none;
 }
+.text{
+	text-align: justify;
+}
